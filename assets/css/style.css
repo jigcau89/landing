@@ -1,0 +1,79 @@
+/* Write some CSS below */
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+.banner-contenedor{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://source.unsplash.com/featured/desk');
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0; /*arriba abajo derecha izquierda*/
+	text-align: center;
+	text-shadow: 1px 1px 2px black;
+}
+h1{
+	color: #FF5A5F;
+	font-size: 50px;
+	margin: 0;
+	font-weight: bold;
+}
+.banner-contenedor p {
+	color: rgba(255,255,255,.7);
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+.banner-contenedor button:hover {
+	background-color: red;
+	
+}
+.banner-contenedor button{
+	background-color: #1A48E3;
+	color: white;
+	padding: 16px 48px;
+	border-radius: 4px;
+	display: inline-block;
+	text-decoration: none;
+	transition: .3s;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+
+}
+
+
+.cartas-contenedor{
+	width: 860px;
+	margin: 60px auto;
+}
+.cartas-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.cartas{
+	background: white;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	padding: 24px;
+	margin: 0px 20px;
+}
+.cartas img{
+	width: 200px;
+	height: 200px;
+}
+footer{
+	background: #404042;
+	color: white;
+	padding: 30px 50px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+footer p {
+	margin: 0;
+}
+h3{
+	color: green;
+}
